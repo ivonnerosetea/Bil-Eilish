@@ -1,0 +1,15 @@
+// @use 'base/variables' as v;
+@use '../base/variables' as v;
+
+
+.footer {
+    background-color: v.$rey;
+    padding: 2rem 0;
+    box-shadow: .1rem .2rem .6rem v.$naranja;
+    p {
+        margin: 0;
+        color: v.$blanco;
+        text-align: center;
+        font-size: 13px;
+    }
+}
